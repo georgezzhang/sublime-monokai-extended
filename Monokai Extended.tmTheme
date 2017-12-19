@@ -619,9 +619,113 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>JS: Instance constructor</string>
+      <key>scope</key>
+      <string>meta.instance.constructor meta.function-call.constructor.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#a6e22e</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS: es6 template delimiters ${}</string>
+      <key>scope</key>
+      <string>meta.template.expression.js punctuation.definition.template-expression.begin.js, meta.template.expression.js punctuation.definition.template-expression.end.js, meta.template.expression.js punctuation.accessor</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#AFF132</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>JS: Function Name</string>
       <key>scope</key>
       <string>meta.function.js, entity.name.function.js, support.function.dom.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#a6e22e</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS: Param commas</string>
+      <key>scope</key>
+      <string>source.js meta.function.js punctuation.separator.parameter.function.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#ffffff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS: Object dot notation</string>
+      <key>scope</key>
+      <string>meta.property.object.js, keyword.operator.accessor.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#ffffff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS: colons</string>
+      <key>scope</key>
+      <string>source.js meta.group.braces.curly constant.other.object.key.js punctuation.separator.key-value.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#ffffff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS: unquoted string</string>
+      <key>scope</key>
+      <string>source.js meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#ffffff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS: receiver</string>
+      <key>scope</key>
+      <string>support.type.object.module.js, source.js meta.function.declaration.js support.class.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#66d9ef</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS: receiver property</string>
+      <key>scope</key>
+      <string>support.type.object.module.js support.type.object.module.js</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -678,6 +782,19 @@
       <dict>
         <key>foreground</key>
         <string>#ae81ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS: Literal language variable</string>
+      <key>scope</key>
+      <string>variable.language.arguments.js, variable.language.super.js, variable.language.this.js, variable.language.self.js, variable.language.proto.js, variable.language.constructor.js, variable.language.prototype.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string> italic</string>
+        <key>foreground</key>
+        <string>#66d9ef</string>
       </dict>
     </dict>
     <dict>
@@ -1356,6 +1473,19 @@
         <string>underline</string>
         <key>foreground</key>
         <string>#a6e22e</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markup: strike</string>
+      <key>scope</key>
+      <string>markup.strike</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#cc4273</string>
       </dict>
     </dict>
     <dict>
